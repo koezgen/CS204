@@ -14,4 +14,47 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Homework_1.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="mat.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="matrix.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="textFile.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="m6.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="m7.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="m8.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="m9.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="m0.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="m3.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="m4.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="m5.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+    <Text Include="inputFile.txt">
+      <Filter>Kaynak Dosyaları</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
