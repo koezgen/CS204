@@ -1,3 +1,0 @@
-C:/Repositories/CS204/CS204_Homeworks/Homework_1/cmake-build-debug/CMakeFiles/Homework_1.dir
-C:/Repositories/CS204/CS204_Homeworks/Homework_1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Repositories/CS204/CS204_Homeworks/Homework_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
