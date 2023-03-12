@@ -15,49 +15,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Homework_1.cpp">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
+    <ClInclude Include="dice.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="date.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="randgen.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="buggyDice.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="prompt.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="mat.txt">
+    <ClCompile Include="randgen.cpp">
       <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="matrix.txt">
+    </ClCompile>
+    <ClCompile Include="buggyDice.cpp">
       <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="textFile.txt">
+    </ClCompile>
+    <ClCompile Include="pointerArithmetic.cpp">
       <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="m6.txt">
+    </ClCompile>
+    <ClCompile Include="pointer.cpp">
       <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="m7.txt">
+    </ClCompile>
+    <ClCompile Include="prompt.cpp">
       <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="m8.txt">
+    </ClCompile>
+    <ClCompile Include="dice.cpp">
       <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="m9.txt">
+    </ClCompile>
+    <ClCompile Include="date.cpp">
       <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="m0.txt">
-      <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="m3.txt">
-      <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="m4.txt">
-      <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="m5.txt">
-      <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="inputFile.txt">
-      <Filter>Kaynak Dosyaları</Filter>
-    </Text>
-    <Text Include="ULTRAMEGAMATRIX.txt">
-      <Filter>Kaynak Dosyaları</Filter>
-    </Text>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b1d0bfcf-90ed-48c2-87a9-00682ed54293}</ProjectGuid>
-    <RootNamespace>Homework1</RootNamespace>
+    <ProjectGuid>{bba6352e-694e-402e-9a89-8abe735109fc}</ProjectGuid>
+    <RootNamespace>Week2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,22 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Homework_1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="inputFile.txt" />
-    <Text Include="m0.txt" />
-    <Text Include="m3.txt" />
-    <Text Include="m4.txt" />
-    <Text Include="m5.txt" />
-    <Text Include="m6.txt" />
-    <Text Include="m7.txt" />
-    <Text Include="m8.txt" />
-    <Text Include="m9.txt" />
-    <Text Include="mat.txt" />
-    <Text Include="matrix.txt" />
-    <Text Include="textFile.txt" />
-    <Text Include="ULTRAMEGAMATRIX.txt" />
+    <ClCompile Include="Week_2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

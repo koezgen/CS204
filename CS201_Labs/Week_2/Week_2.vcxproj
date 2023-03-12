@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b1d0bfcf-90ed-48c2-87a9-00682ed54293}</ProjectGuid>
-    <RootNamespace>Homework1</RootNamespace>
+    <ProjectGuid>{75eb9e34-907c-4b18-923f-69f81dbd6010}</ProjectGuid>
+    <RootNamespace>Week2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,22 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Homework_1.cpp" />
+    <ClInclude Include="buggyDice.h" />
+    <ClInclude Include="date.h" />
+    <ClInclude Include="dice.h" />
+    <ClInclude Include="prompt.h" />
+    <ClInclude Include="randgen.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="inputFile.txt" />
-    <Text Include="m0.txt" />
-    <Text Include="m3.txt" />
-    <Text Include="m4.txt" />
-    <Text Include="m5.txt" />
-    <Text Include="m6.txt" />
-    <Text Include="m7.txt" />
-    <Text Include="m8.txt" />
-    <Text Include="m9.txt" />
-    <Text Include="mat.txt" />
-    <Text Include="matrix.txt" />
-    <Text Include="textFile.txt" />
-    <Text Include="ULTRAMEGAMATRIX.txt" />
+    <ClCompile Include="buggyDice.cpp" />
+    <ClCompile Include="date.cpp" />
+    <ClCompile Include="dice.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pointer.cpp" />
+    <ClCompile Include="pointerArithmetic.cpp" />
+    <ClCompile Include="prompt.cpp" />
+    <ClCompile Include="randgen.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
