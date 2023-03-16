@@ -8,7 +8,7 @@ using namespace std;
 // Kanat Ozgen
 
 // This function fits the shape into the matrix present in the text file.
-void shape_finder(vector<vector<char>> (&shape), vector<vector<char>> (&matrix))
+void shape_finder(vector<vector<char>>(&shape), vector<vector<char>>(&matrix))
 {
 	bool bigness_flag = false;
 	int star_count = 0;
@@ -91,7 +91,7 @@ void shape_finder(vector<vector<char>> (&shape), vector<vector<char>> (&matrix))
 			cout << "No placements found." << endl;
 		}
 	}
-	
+
 	else
 	{
 		cout << "No placements found." << endl;
@@ -99,14 +99,14 @@ void shape_finder(vector<vector<char>> (&shape), vector<vector<char>> (&matrix))
 }
 
 // This function fits the shape into an arbitrary matrix of characters. This is done via string slicing and indexing.
-void input_query_parser(string& input, vector<vector<char>> (&shape))
+void input_query_parser(string& input, vector<vector<char>>(&shape))
 {
 	// This buffer gets reset every iteration
 	vector<char> buf;
 
 	// The row size must begin by 1, since it is assumed that the first row is never empty.
 	int rowsize = 1;
-	
+
 	// Clears out the matrix before appending items into it.
 	shape.clear();
 
@@ -122,7 +122,7 @@ void input_query_parser(string& input, vector<vector<char>> (&shape))
 
 	// this will never overflow, because the j begins by 1.
 	for (int j = 1; j <= rowsize; j++)
-	{	
+	{
 		if (rowsize == 1)
 		{
 			for (int i = 1; i < input.length(); i = i + 2)
@@ -150,7 +150,7 @@ void input_query_parser(string& input, vector<vector<char>> (&shape))
 
 		}
 
-		else 
+		else
 		{
 			// begins from the last slash found in the string search. 
 			for (int i = 1; i < input.substr(slashIndex, input.substr(slashIndex).find('/')).length(); i = i + 2)
@@ -191,7 +191,7 @@ int main()
 
 	string inputFile;
 	ifstream input;
-	string query;	
+	string query;
 	string line;
 	int placement = 0;
 	int column_counter = 0;
@@ -204,7 +204,7 @@ int main()
 
 	while (input.fail())
 	{
-		cout << endl <<  "Could not open the file. Please enter a valid file name: ";
+		cout << endl << "Could not open the file. Please enter a valid file name: ";
 		cin >> inputFile;
 		input.open(inputFile);
 	}
@@ -214,7 +214,7 @@ int main()
 		if (column_counter == 0)
 		{
 			column_counter = line.length();
-			
+
 			for (int i = 0; i < line.length(); i++)
 			{
 				if ((line[i] != '#') && (line[i] != '-'))
@@ -234,7 +234,7 @@ int main()
 				Matrix.push_back(buf);
 			}
 		}
-		
+
 		else if (column_counter == line.length())
 		{
 			for (int i = 0; i < line.length(); i++)
@@ -266,7 +266,7 @@ int main()
 		}
 	}
 
-	
+
 	if (flag_of_authenticity)
 	{
 		// printout of the matrix file
@@ -281,7 +281,7 @@ int main()
 
 			cout << endl;
 		}
-		
+
 		// This loop iterates up until the point a "quit" entry is sent to the compiler from the cmd prompt.
 		while (query != "Quit")
 		{
