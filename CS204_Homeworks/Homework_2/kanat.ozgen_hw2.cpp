@@ -363,7 +363,7 @@ int main()
 
 	} while (!is_game_finished(Possibles, Impossibles));
 
-	
+
 	// They can never be NULL.
 	cout << "The secret number is: " << Possibles[0]->digit << Possibles[1]->digit << Possibles[2]->digit << endl;
 	cout << "Congrats! Now, deleting the lists..." << endl;
@@ -373,13 +373,15 @@ int main()
 		DeleteList(Impossibles[i]);
 		DeleteList(Possibles[i]);
 	}
-	
+
 	// Since lists are statically allocated, no further action can be taken.
 	for (int i = 0; i < 3; i++)
 	{
 		Possibles[i] = NULL;
 		Impossibles[i] = NULL;
-	}
+	}  
+
+	_CrtDumpMemoryLeaks();
 
 	return 0;
 }
