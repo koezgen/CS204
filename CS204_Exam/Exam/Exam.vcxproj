@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{32f765b4-5c14-4cb5-9cdb-8f13fa76e477}</ProjectGuid>
-    <RootNamespace>Homework3</RootNamespace>
+    <ProjectGuid>{3a62bfe5-8d1d-4511-96b6-cd261b029002}</ProjectGuid>
+    <RootNamespace>Exam</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,16 +127,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Board.cpp" />
-    <ClCompile Include="CharStack.cpp" />
+    <ClCompile Include="clockt.cpp" />
+    <ClCompile Include="DynIntQueue.cpp" />
+    <ClCompile Include="DynIntQueueDemo.cpp" />
+    <ClCompile Include="DynIntStack.cpp" />
+    <ClCompile Include="DynIntStackDemo.cpp" />
+    <ClCompile Include="externdemo1.cpp" />
+    <ClCompile Include="externdemo2.cpp" />
+    <ClCompile Include="funcoverload.cpp" />
+    <ClCompile Include="IntQueue.cpp" />
+    <ClCompile Include="IntQueueDemo.cpp" />
+    <ClCompile Include="IntStack.cpp" />
+    <ClCompile Include="IntStackDemo.cpp" />
+    <ClCompile Include="linkedlistextra.cpp" />
+    <ClCompile Include="linkedlistextrademo.cpp" />
+    <ClCompile Include="LinkedListExtraOper.cpp" />
+    <ClCompile Include="LinkedListExtraOperdemo.cpp" />
+    <ClCompile Include="linksetdemo.cpp" />
+    <ClCompile Include="linkstringset.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PostfixEvaluator.cpp" />
+    <ClCompile Include="refreturn.cpp" />
+    <ClCompile Include="useclock.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Board.h" />
-    <ClInclude Include="CharStack.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="CS204_Homework3_Spring2023.pdf" />
+    <ClInclude Include="clockt.h" />
+    <ClInclude Include="DynIntQueue.h" />
+    <ClInclude Include="DynIntStack.h" />
+    <ClInclude Include="IntQueue.h" />
+    <ClInclude Include="IntStack.h" />
+    <ClInclude Include="linkedlistextra.h" />
+    <ClInclude Include="LinkedListExtraOper.h" />
+    <ClInclude Include="linkstringset.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

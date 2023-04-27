@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{32f765b4-5c14-4cb5-9cdb-8f13fa76e477}</ProjectGuid>
-    <RootNamespace>Homework3</RootNamespace>
+    <ProjectGuid>{1dafab36-a0d8-463e-a9a7-6cb410ec0387}</ProjectGuid>
+    <RootNamespace>ExamStudy</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,16 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Board.cpp" />
-    <ClCompile Include="CharStack.cpp" />
+    <ClCompile Include="classdef.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Board.h" />
-    <ClInclude Include="CharStack.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="CS204_Homework3_Spring2023.pdf" />
+    <ClInclude Include="header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,24 +18,13 @@
     <ClCompile Include="main.cpp">
       <Filter>Kaynak Dosyalar</Filter>
     </ClCompile>
-    <ClCompile Include="CharStack.cpp">
-      <Filter>Kaynak Dosyaları</Filter>
-    </ClCompile>
-    <ClCompile Include="Board.cpp">
+    <ClCompile Include="schedule.cpp">
       <Filter>Kaynak Dosyaları</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CharStack.h">
+    <ClInclude Include="schedule.h">
       <Filter>Üst Bilgi Dosyaları</Filter>
     </ClInclude>
-    <ClInclude Include="Board.h">
-      <Filter>Üst Bilgi Dosyaları</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="CS204_Homework3_Spring2023.pdf">
-      <Filter>Kaynak Dosyaları</Filter>
-    </None>
   </ItemGroup>
 </Project>
