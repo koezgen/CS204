@@ -49,6 +49,7 @@ int Player::move(int steps)
 	Node* iterator = pos;
 	int token = 0;
 
+	// Iterates and returns the value of the token if the pseudo first node is passed.
 	for (int i = 0; i < steps; i++)
 	{
 		if (iterator->next == board.GetFirst())
@@ -84,7 +85,8 @@ void Player::deposit_money(int add)
 }
 
 /// <summary>
-/// Change the owner of the node, 
+/// Change the owner of the node, and subtract the cost of the node
+/// From the player.
 /// </summary>
 /// <param name="slot"></param>
 void Player::buy_slot(int slot)
@@ -120,12 +122,15 @@ void Player::display()
 	
 	Node* iterator = board.GetFirst();
 
+	// Enter a string of length 6 with empty space characters every time my iterator is not
+	// Equal to the position of the player.
 	while (iterator != pos)
 	{
 		playerinfo << "      ";
 		iterator = iterator->next;
 	}
 
+	// Display name and balance
 	playerinfo << name << " " << balance;
 	cout << playerinfo.str() << endl;
 }

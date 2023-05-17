@@ -65,6 +65,7 @@ void Board::display()
 {
 	Node* iterator = first;
 
+	// I store them in a stringstream object so that they are synchronized.
 	ostringstream output[3];
 
 	if (iterator != NULL)
@@ -72,6 +73,7 @@ void Board::display()
 		output[1] << "^  ";
 		output[2] << "|";
 
+		// Here are the patterns that make up the visual structure: 
 		while (iterator->next != first)
 		{				
 			if (iterator->owner != "None")
